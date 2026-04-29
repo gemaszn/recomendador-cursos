@@ -51,6 +51,7 @@ Interfaz visual con Streamlit.
 Crear entorno virtual:
 ```text
 python -m venv venv
+```
 
 Activar entorno virtual en Windows:
 ```text
