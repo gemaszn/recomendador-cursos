@@ -1,0 +1,43 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Modelos generados
+models/*.pkl
+
+# Datos generados
+data/*.csv
+data/*.png
+
+# Mantener carpetas vacías si quieres subir la estructura
+!data/.gitkeep
+!models/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+
